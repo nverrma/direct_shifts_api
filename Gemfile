@@ -39,6 +39,8 @@ gem "bootsnap", require: false
 gem "devise", github: "heartcombo/devise", ref: "f8d1ea90bc3"
 gem 'devise-jwt'
 gem 'rack-cors'
+gem 'devise_invitable', '~> 2.0.0'
+gem "letter_opener", group: :development
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
@@ -50,3 +52,5 @@ group :development do
   # gem "spring"
 end
 
+
+gem "byebug", "~> 11.1", :groups => [:development, :test]
