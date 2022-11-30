@@ -15,7 +15,7 @@ Things you may want to cover:
   4. run `$ bundle install`
   5. run `$ rails db:create db:migrate`
   6. generate the devise_jwt_secret key by running `$ bundle exec rake secret` then paste it somewhere temporarily
-  7. open Rails credentials with nano editor: `$ EDITOR="nano --wait" bin/rails credentials: edit`
+  7. open Rails credentials with nano editor: `$ EDITOR="nano" bin/rails credentials:edit`
   8. At the bottom of the file add `devise_jwt_secret: <Here goes the key that you have previously generated>`
   9. Save the file
   10. run `$ rails s`
